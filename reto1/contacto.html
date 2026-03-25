@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipo TaskMaster - Inicio</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Proyecto TaskMaster</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio / Equipo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="contacto">
+        <h2>Formulario de Contacto</h2>
+        <p>Si tienes dudas sobre TaskMaster, envíanos un mensaje:</p>
+
+        <form action="#" method="POST">
+            <div style="margin-bottom: 15px;">
+                <label for="nombre">Nombre completo:</label><br>
+                <input type="text" id="nombre" name="nombre" placeholder="Ej. Juan Pérez" required>
+            </div>
+
+            <div style="margin-bottom: 15px;">
+                <label for="email">Correo electrónico:</label><br>
+                <input type="email" id="email" name="email" placeholder="nombre@ejemplo.com" required>
+            </div>
+
+            <div style="margin-bottom: 15px;">
+                <label for="asunto">Asunto:</label><br>
+                <select id="asunto" name="asunto">
+                    <option value="soporte">Soporte Técnico</option>
+                    <option value="sugerencia">Sugerencia</option>
+                    <option value="otro">Otro</option>
+                </select>
+            </div>
+
+            <div style="margin-bottom: 15px;">
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" cols="30" placeholder="Escribe aquí tu consulta..."
+                    required></textarea>
+            </div>
+
+            <button type="submit">Enviar mensaje</button>
+            <button type="reset">Limpiar formulario</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2026 Equipo TaskMaster. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
